@@ -12,9 +12,9 @@ After all of the data has been collected into a single table, the relevant featu
 
 Finally, the data are summarized by taking the mean value of all observations of each feature for each participant and activity. The resulting table includes 180 observations (30 participants by 6 activities).
 
-# codebook.txt
+# CodeBook.md
 
-This text file includes detailed descriptions of all features in the final, tidy database.
+This markdown file includes detailed descriptions of all features in the final, tidy database.
 
 # average means and standard deviations_tidy data.txt
 
