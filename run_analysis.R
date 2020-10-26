@@ -9,7 +9,9 @@ features <- read.table("features.txt")
 
 # Install and load package needed to manipulate data
 install.packages("dplyr")
+install.packages("data.table")
 library(dplyr)
+library(data.table)
 
 merged_subjects <- rbind(subject_test,subject_train)
 merged_X <- rbind(x_test,x_train)
